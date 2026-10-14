@@ -16,6 +16,7 @@ private:
     QLineEdit* decEdit;
     QLineEdit* hexEdit;
     QLineEdit* binEdit;
+    QPushButton* exitButton;
 
 private slots:
     void decChanged(const QString&);
